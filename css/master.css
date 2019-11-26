@@ -1,0 +1,98 @@
+:root {
+    --c1: #111314;
+    --c2: #393e46;
+    --c3: #eeeeee;
+    --c4: #d65a31;
+}
+
+*,
+h1 {
+    font-family: "Bree Serif", serif;
+}
+
+.card-content {
+    text-align: justify;
+}
+
+main,
+body,
+aside {
+    background-color: black !important;
+}
+
+main {
+    border-left: 1px solid var(--c1);
+}
+
+h1 {
+    color: var(--c4);
+}
+
+table,
+.card {
+    color: var(--c3);
+}
+
+.card {
+    background-color: var(--c1) !important;
+}
+
+.collection-item {
+    cursor: pointer;
+    border: none !important;
+    background-color: black !important;
+    color: var(--c3) !important;
+}
+
+.collection-item:hover,
+.active {
+    background-color: var(--c1) !important;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+ul,
+li {
+    display: block;
+}
+
+.collection {
+    border: none !important;
+}
+
+main {
+    height: 100vh;
+    overflow-y: scroll;
+}
+
+#mob {
+    color: var(--c3);
+    cursor: pointer;
+}
+
+#sticky.stick {
+    position: fixed;
+    top: 0;
+    z-index: 10000;
+    background-color: black;
+    display: block;
+    width: 100%;
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-track {
+    background: var(--c1);
+}
+
+::-webkit-scrollbar-thumb {
+    background: var(--c3);
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: var(--c3);
+}
