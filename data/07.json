@@ -1,0 +1,38 @@
+{
+    "Date": [
+        "Year 8, 1 Apr",
+        "Year 7247, 13 Dec",
+        "Year 72,479, 11 Jul",
+        "Year 7.94*10^35",
+        "Year 4.54*10^98",
+        "Year 10^1500",
+        "Year 10^10^50",
+        "Year 10^10^78",
+        "Year 10^10^120",
+        "Year 10^10^10^56"
+    ],
+    "Years": [
+        "100.0 B",
+        "100 T",
+        "1 Q",
+        "3*10^43",
+        "1.7*10^98",
+        "",
+        "",
+        "",
+        "",
+        ""
+    ],
+    "Event": [
+        "Galaxies disappear beyond light horizon",
+        "Star formation ends",
+        "Sun cools down to -268 deg C",
+        "Black Hole Era",
+        "Dark Era",
+        "Iron stars",
+        "Boltzmann brain appears",
+        "Last black holes evaporate",
+        "Final entropy state",
+        "Possible new Big Bang occurs"
+    ]
+}
