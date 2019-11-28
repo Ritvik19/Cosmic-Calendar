@@ -1,0 +1,35 @@
+{
+    "Date": [
+        "30 Dec",
+        "31 Dec, 06:05",
+        "31 Dec, 14:24",
+        "31 Dec, 22:24",
+        "31 Dec, 23:44",
+        "31 Dec, 23:52",
+        "31 Dec, 23:55",
+        "31 Dec, 23:58",
+        "31 Dec, 23:59:32"
+    ],
+    "YearsAgo": [
+        "65",
+        "15",
+        "12.3",
+        "2.5",
+        "0.4",
+        "0.2",
+        "0.11",
+        "0.035",
+        "0.012"
+    ],
+    "Event": [
+        "Primates",
+        "Apes",
+        "Hominids",
+        "Primitive Humans and Stone Tools",
+        "Domestication of Fire",
+        "Anatomically Modern Humans",
+        "Beginning of Most Recent Glacial Period",
+        "Sculpture and Painting",
+        "Agriculture"
+    ]
+}

@@ -1,0 +1,47 @@
+{
+    "Date": [
+        "31 Dec, 23:59:33",
+        "31 Dec, 23:59:41",
+        "31 Dec, 23:59:46",
+        "31 Dec, 23:59:47",
+        "31 Dec, 23:59:48",
+        "31 Dec, 23:59:49",
+        "31 Dec, 23:59:51",
+        "31 Dec, 23:59:52",
+        "31 Dec, 23:59:53",
+        "31 Dec, 23:59:54",
+        "31 Dec, 23:59:55",
+        "31 Dec, 23:59:56",
+        "31 Dec, 23:59:58"
+    ],
+    "YearsAgo": [
+        "12.0",
+        "8.3",
+        "6.0",
+        "5.5",
+        "5.0",
+        "4.5",
+        "4.0",
+        "3.5",
+        "3.0",
+        "2.5",
+        "2.0",
+        "1.5",
+        "1.0"
+    ],
+    "Event": [
+        "End of the Ice Age",
+        "Flooding of Doggerland",
+        "Chalcolithic",
+        "Early Bronze Age; Proto-writing; Building of Stonehenge Cursus",
+        "First Dynasty of Egypt, Early Dynastic Period in Sumer, Beginning of Indus Valley Civilisation",
+        "Alphabet, Akkadian Empire, Wheel",
+        "Code of Hammurabi, Middle Kingdom of Egypt",
+        "Late Bronze Age to Early Iron Age; Minoan eruption",
+        "Iron Age; Beginning of Classical Antiquity",
+        "Buddha, Mahavira, Zoroaster, Confucius, Qin Dynasty, Classical Greece, Ashokan Empire, Vedas Completed, Euclidean geometry, Archimedean Physics, Roman Republic",
+        "Ptolemaic astronomy, Roman Empire, Christ, Invention of Numeral 0, Gupta Empire",
+        "Muhammad, Maya civilization, Song Dynasty, Rise of Byzantine Empire",
+        "Mongol Empire, Maratha Empire, Crusades, Christopher Columbus Voyages to the Americas, Renaissance in Europe, Classical Music to the Time of Johann Sebastian Bach"
+    ]
+}

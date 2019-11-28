@@ -2,14 +2,6 @@
 var UnorderedList = document.getElementsByTagName("ul")[0];
 var ListElements = UnorderedList.getElementsByTagName("a");
 
-for (var i = 0; i < ListElements.length; i++) {
-    ListElements[i].addEventListener("click", function() {
-        var current = document.getElementsByClassName("active");
-        current[0].className = current[0].className.replace(" active", "");
-        this.className += " active";
-    });
-}
-
 //smooth scroll
 $(document).ready(function() {
     $("a").on("click", function(event) {
@@ -66,4 +58,95 @@ function sticky_relocate() {
 $(function() {
     $(window).scroll(sticky_relocate);
     sticky_relocate();
+});
+
+// data
+$.getJSON("data/01.json", function(json) {
+    contents = "";
+    for (i = 0; i < json.Date.length; i++) {
+        contents +=
+            "<tr> <td>" +
+            json.Date[i] +
+            "</td> <td>" +
+            json.YearsAgo[i] +
+            "</td> <td>" +
+            json.Event[i] +
+            "</td> </tr>";
+    }
+    document
+        .getElementById("d01")
+        .getElementsByTagName("table")[0]
+        .getElementsByTagName("tbody")[0].innerHTML = contents;
+});
+
+$.getJSON("data/02.json", function(json) {
+    contents = "";
+    for (i = 0; i < json.Date.length; i++) {
+        contents +=
+            "<tr> <td>" +
+            json.Date[i] +
+            "</td> <td>" +
+            json.YearsAgo[i] +
+            "</td> <td>" +
+            json.Event[i] +
+            "</td> </tr>";
+    }
+    document
+        .getElementById("d02")
+        .getElementsByTagName("table")[0]
+        .getElementsByTagName("tbody")[0].innerHTML = contents;
+});
+
+$.getJSON("data/03.json", function(json) {
+    contents = "";
+    for (i = 0; i < json.Date.length; i++) {
+        contents +=
+            "<tr> <td>" +
+            json.Date[i] +
+            "</td> <td>" +
+            json.YearsAgo[i] +
+            "</td> <td>" +
+            json.Event[i] +
+            "</td> </tr>";
+    }
+    document
+        .getElementById("d03")
+        .getElementsByTagName("table")[0]
+        .getElementsByTagName("tbody")[0].innerHTML = contents;
+});
+
+$.getJSON("data/04.json", function(json) {
+    contents = "";
+    for (i = 0; i < json.Date.length; i++) {
+        contents +=
+            "<tr> <td>" +
+            json.Date[i] +
+            "</td> <td>" +
+            json.YearsAgo[i] +
+            "</td> <td>" +
+            json.Event[i] +
+            "</td> </tr>";
+    }
+    document
+        .getElementById("d04")
+        .getElementsByTagName("table")[0]
+        .getElementsByTagName("tbody")[0].innerHTML = contents;
+});
+
+$.getJSON("data/05.json", function(json) {
+    contents = "";
+    for (i = 0; i < json.Date.length; i++) {
+        contents +=
+            "<tr> <td>" +
+            json.Date[i] +
+            "</td> <td>" +
+            json.YearsAgo[i] +
+            "</td> <td>" +
+            json.Event[i] +
+            "</td> </tr>";
+    }
+    document
+        .getElementById("d05")
+        .getElementsByTagName("table")[0]
+        .getElementsByTagName("tbody")[0].innerHTML = contents;
 });
