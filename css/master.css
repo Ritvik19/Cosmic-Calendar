@@ -1,98 +1,86 @@
 :root {
-    --c1: #111314;
-    --c2: #393e46;
-    --c3: #eeeeee;
-    --c4: #d65a31;
-}
-
-*,
-h1 {
-    font-family: "Bree Serif", serif;
-}
-
-.card-content {
-    text-align: justify;
-}
-
-main,
-body,
-aside {
-    background-color: black !important;
-}
-
-main {
-    border-left: 1px solid var(--c1);
-}
-
-h1 {
-    color: var(--c4);
-}
-
-table,
-.card {
-    color: var(--c3);
-}
-
-.card {
-    background-color: var(--c1) !important;
-}
-
-.collection-item {
-    cursor: pointer;
-    border: none !important;
-    background-color: black !important;
-    color: var(--c3) !important;
-}
-
-.collection-item:hover,
-.active {
-    background-color: var(--c1) !important;
-}
-
-html {
-    scroll-behavior: smooth;
-}
-
-ul,
-li {
-    display: block;
-}
-
-.collection {
-    border: none !important;
-}
-
-main {
-    height: 100vh;
-    overflow-y: scroll;
-}
-
-#mob {
-    color: var(--c3);
-    cursor: pointer;
-}
-
-#sticky.stick {
-    position: fixed;
-    top: 0;
-    z-index: 10000;
-    background-color: black;
-    display: block;
-    width: 100%;
+    --clr-orange: rgb(255, 78, 1);
+    --clr-violet: rgb(20, 4, 35);
 }
 
 ::-webkit-scrollbar {
-    width: 10px;
+    display: none;
 }
 
-::-webkit-scrollbar-track {
-    background: var(--c1);
+nav {
+    background-image: url("../img/bg.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
-::-webkit-scrollbar-thumb {
-    background: var(--c3);
+body {
+    background-color: var(--clr-violet);
 }
 
-::-webkit-scrollbar-thumb:hover {
-    background: var(--c3);
+header {
+    background-image: url("../img/bg.jpg");
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.collection,
+.collection-item {
+    background-color: rgba(0, 0, 0, 0) !important;
+    border: none !important;
+    font-size: 3vh;
+}
+
+.collection>a {
+    color: white;
+}
+
+.collection>a:hover {
+    color: var(--clr-orange);
+}
+
+.largetext {
+    font-size: 10vw;
+    color: var(--clr-orange);
+}
+
+.card,
+.main {
+    background-color: inherit;
+}
+
+.card h1,
+.main h1 {
+    color: var(--clr-orange);
+    background-color: var(--clr-violet);
+    width: 100%;
+}
+
+th {
+    color: var(--clr-orange);
+}
+
+.card,
+tr,
+.main {
+    color: white;
+}
+
+.main {
+    margin-top: 108px;
+}
+
+.sticky {
+    position: -webkit-sticky;
+    /* Safari */
+    position: sticky;
+    top: 0px;
+}
+
+.my-container {
+    margin-left: 5vw;
+    margin-right: 5vw;
+    width: 90vw;
 }

@@ -2,171 +2,206 @@
 <html lang="en">
 
 <head>
-    <meta charset="utf-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Cosmic Calendar</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css" />
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
-    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css" />
-    <link rel="stylesheet" href="css/master.css" />
-    <link href="https://fonts.googleapis.com/css?family=Bree+Serif&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="css/master.css">
 </head>
 
 <body>
-    <div class="w3-row">
-        <aside class="w3-col m3 w3-padding">
-            <h1 class="w3-jumbo w3-center">Cosmic Calendar</h1>
-            <div id="sticky-anchor"></div>
-            <div id="sticky">
-                <hr />
-                <div id="mob" class="w3-padding">
-                    <i class="material-icons">menu</i>
-                </div>
-                <div class="collection-container">
-                    <ul class="collection">
-                        <a class="collection-item" href="#d00">About</a>
-                        <a class="collection-item" href="#d01">Cosmology</a>
-                        <a class="collection-item" href="#d02">Evolution of Life</a>
-                        <a class="collection-item" href="#d03">Human Evolution</a>
-                        <a class="collection-item" href="#d04">History Begins</a>
-                        <a class="collection-item" href="#d05">The Current Second</a>
-                        <a class="collection-item" href="#d06">Future of the Earth and Solar System</a
-              >
-              <a class="collection-item" href="#d07">Future of the Universe</a>
-                        <a class="collection-item" href="#d08">The Universe Life and Everything</a
-              >
-            </ul>
-          </div>
-          <hr />
+
+    <nav>
+        <div class="nav-wrapper">
+            <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
         </div>
-      </aside>
-      <main class="w3-col m9 w3-padding-large">
-        <div class="card w3-padding-large" id="d00">
-          <div class="card-image">
-            <img src="data/cosmic-calendar.png" />
-          </div>
-          <div class="card-content">
-            The Cosmic Calendar is a method to visualize the chronology of the
-            universe, scaling its current age of 13.8 billion years to a single
-            year in order to help intuit it for pedagogical purposes in science
-            education or popular science. In this visualization, the Big Bang
-            took place at the beginning of January 1 at midnight, and the
-            current moment maps onto the end of December 31 just before
-            midnight. At this scale, there are 437.5 years per second, 1.575
-            million years per hour, and 37.8 million years per day. The concept
-            was popularized by Carl Sagan in his book The Dragons of Eden (1977)
-            and on his television series Cosmos. Sagan goes on to extend the
-            comparison in terms of surface area, explaining that if the Cosmic
-            Calendar is scaled to the size of a football field, then "all of
-            human history would occupy an area the size of [his] hand".
-            <br />
-            It shows the time-scale relationship of the universe and all events
-            on Earth as plotted along a single 12-month, 365-day, year. On this
-            scale, one second corresponds to 438 years; a minute is about 26,000
-            years; an hour is 1.6 million years; and a day is 38 million years.
-          </div>
+    </nav>
+    <ul class="sidenav" id="mobile-demo">
+        <li><a href="#d-00">About</a></li>
+        <li><a href="#d-01">Cosmology</a></li>
+        <li><a href="#d-02">Evolution of Life</a></li>
+        <li><a href="#d-03">Human Evolution</a></li>
+        <li><a href="#d-04">History Begins</a></li>
+        <li><a href="#d-05">The Current Second</a></li>
+        <li><a href="#d-06">Future of the Solar System</a></li>
+        <li><a href="#d-07">Future of the Universe</a></li>
+        <li><a href="#d-08">The Universe Life and Everything</a></li>
+    </ul>
+    <header>
+        <div class="w3-row-padding">
+            <div class="w3-col m7 w3-padding"><span class="largetext w3-margin">Cosmic Calendar</span></div>
+            <div class="w3-col m5 w3-padding-large">
+                <br><br><br>
+                <ul class="collection w3-section">
+                    <a href="#d-00">
+                        <li class="collection-item">About</li>
+                    </a>
+                    <a href="#d-01">
+                        <li class="collection-item">Cosmology</li>
+                    </a>
+                    <a href="#d-02">
+                        <li class="collection-item">Evolution of Life</li>
+                    </a>
+                    <a href="#d-03">
+                        <li class="collection-item">Human Evolution</li>
+                    </a>
+                    <a href="#d-04">
+                        <li class="collection-item">History Begins</li>
+                    </a>
+                    <a href="#d-05">
+                        <li class="collection-item">The Current Second</li>
+                    </a>
+                    <a href="#d-06">
+                        <li class="collection-item">Future of the Solar System</li>
+                    </a>
+                    <a href="#d-07">
+                        <li class="collection-item">Future of the Universe</li>
+                    </a>
+                    <a href="#d-08">
+                        <li class="collection-item">The Universe Life and Everything</li>
+                    </a>
+                </ul>
+            </div>
         </div>
-        <div class="card w3-padding" id="d01">
-          <h1>Cosmology</h1>
-          <table>
-            <thead>
-              <tr>
-                <th>Date</th>
-                <th>Billions of Years ago</th>
-                <th>Event</th>
-              </tr>
-            </thead>
-            <tbody></tbody>
-          </table>
+    </header>
+    <main class="w3-padding-large my-container">
+        <div class="card w3-padding-large" id="d-00">
+            <div class="card-image">
+                <img src="data/cosmic-calendar.png" />
+            </div>
+            <div class="card-content">
+                The Cosmic Calendar is a method to visualize the chronology of the universe, scaling its current age of 13.8 billion years to a single year in order to help intuit it for pedagogical purposes in science education or popular science. In this visualization,
+                the Big Bang took place at the beginning of January 1 at midnight, and the current moment maps onto the end of December 31 just before midnight. At this scale, there are 437.5 years per second, 1.575 million years per hour, and 37.8 million
+                years per day. The concept was popularized by Carl Sagan in his book The Dragons of Eden (1977) and on his television series Cosmos. Sagan goes on to extend the comparison in terms of surface area, explaining that if the Cosmic Calendar
+                is scaled to the size of a football field, then "all of human history would occupy an area the size of [his] hand".
+                <br /> It shows the time-scale relationship of the universe and all events on Earth as plotted along a single 12-month, 365-day, year. On this scale, one second corresponds to 438 years; a minute is about 26,000 years; an hour is 1.6 million
+                years; and a day is 38 million years.
+            </div>
         </div>
-        <div class="card w3-padding" id="d02">
-          <h1>Evolution of Life</h1>
-          <table>
-            <thead>
-              <tr>
-                <th>Date</th>
-                <th>Billions of Years ago</th>
-                <th>Event</th>
-              </tr>
-            </thead>
-            <tbody></tbody>
-          </table>
+        <div class="main w3-padding" id="d-01">
+            <a href="#d-01">
+                <h1 class="sticky">Cosmology</h1>
+            </a>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Date</th>
+                        <th>Billions of Years ago</th>
+                        <th>Event</th>
+                    </tr>
+                </thead>
+                <tbody></tbody>
+            </table>
         </div>
-        <div class="card w3-padding" id="d03">
-          <h1>Human Evolution</h1>
-          <table>
-            <thead>
-              <tr>
-                <th>Date</th>
-                <th>Millions of Years ago</th>
-                <th>Event</th>
-              </tr>
-            </thead>
-            <tbody></tbody>
-          </table>
+        <div class="main w3-padding" id="d-02">
+            <a href="#d-02">
+                <h1 class="sticky">Evolution of Life</h1>
+            </a>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Date</th>
+                        <th>Billions of Years ago</th>
+                        <th>Event</th>
+                    </tr>
+                </thead>
+                <tbody></tbody>
+            </table>
         </div>
-        <div class="card w3-padding" id="d04">
-          <h1>History Begins</h1>
-          <table>
-            <thead>
-              <tr>
-                <th>Date</th>
-                <th>Thousands of Years ago</th>
-                <th>Event</th>
-              </tr>
-            </thead>
-            <tbody></tbody>
-          </table>
+        <div class="main w3-padding" id="d-03">
+            <a href="#d-03">
+                <h1 class="sticky">Human Evolution</h1>
+            </a>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Date</th>
+                        <th>Millions of Years ago</th>
+                        <th>Event</th>
+                    </tr>
+                </thead>
+                <tbody></tbody>
+            </table>
         </div>
-        <div class="card w3-padding" id="d05">
-          <h1>The Current Second</h1>
-          <table>
-            <thead>
-              <tr>
-                <th>Date</th>
-                <th>Thousands of Years ago</th>
-                <th>Event</th>
-              </tr>
-            </thead>
-            <tbody></tbody>
-          </table>
+        <div class="main w3-padding" id="d-04">
+            <a href="#d-04">
+                <h1 class="sticky">History Begins</h1>
+            </a>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Date</th>
+                        <th>Thousands of Years ago</th>
+                        <th>Event</th>
+                    </tr>
+                </thead>
+                <tbody></tbody>
+            </table>
         </div>
-        <div class="card w3-padding" id="d06">
-          <h1>Future of the Earth and Solar System (Year 2)</h1>
-          <table>
-            <thead>
-              <tr>
-                <th>Date</th>
-                <th>Years</th>
-                <th>Event</th>
-              </tr>
-            </thead>
-            <tbody></tbody>
-          </table>
+        <div class="main w3-padding" id="d-05">
+            <a href="#d-05">
+                <h1 class="sticky">The Current Second</h1>
+            </a>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Date</th>
+                        <th>Thousands of Years ago</th>
+                        <th>Event</th>
+                    </tr>
+                </thead>
+                <tbody></tbody>
+            </table>
         </div>
-        <div class="card w3-padding" id="d07">
-          <h1>Future of the Universe (Year 3 and beyond)</h1>
-          <table>
-            <thead>
-              <tr>
-                <th>Date</th>
-                <th>Years</th>
-                <th>Event</th>
-              </tr>
-            </thead>
-            <tbody></tbody>
-          </table>
+        <div class="main w3-padding" id="d-06">
+            <a href="#d-06">
+                <h1 class="sticky">Future of the Earth and Solar System (Year 2)</h1>
+            </a>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Date</th>
+                        <th>Years</th>
+                        <th>Event</th>
+                    </tr>
+                </thead>
+                <tbody></tbody>
+            </table>
         </div>
-        <div class="card w3-padding-large" id="d08">
-          <div class="card-image">
-            <img src="data/universe-life-and-everything.png" />
-          </div>
+        <div class="main w3-padding" id="d-07">
+            <a href="#d-07">
+                <h1 class="sticky">Future of the Universe (Year 3 and beyond)</h1>
+            </a>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Date</th>
+                        <th>Years</th>
+                        <th>Event</th>
+                    </tr>
+                </thead>
+                <tbody></tbody>
+            </table>
         </div>
-      </main>
-    </div>
+        <div class="card w3-padding-large" id="d-08">
+            <div class="card-image">
+                <img src="data/universe-life-and-everything.png" />
+            </div>
+        </div>
+    </main>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script src="data/01.json"></script>
+    <script src="data/02.json"></script>
+    <script src="data/03.json"></script>
+    <script src="data/04.json"></script>
+    <script src="data/05.json"></script>
+    <script src="data/06.json"></script>
+    <script src="data/07.json"></script>
     <script src="js/main.js"></script>
-  </body>
+</body>
+
 </html>

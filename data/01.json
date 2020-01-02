@@ -1,6 +1,6 @@
-{
+data1 = {
     "Date": ["1 Jan", "14 Jan", "22 Jan", "16 Mar", "12 May", "2 Sep"],
-    "YearsAgo": ["13.8", "13.1", "12.85", "11", "8.8", "4.57"],
+    "Years": ["13.8", "13.1", "12.85", "11", "8.8", "4.57"],
     "Event": [
         "Big Bang, as seen through cosmic background radiation",
         "Oldest known Gamma Ray Burst",
