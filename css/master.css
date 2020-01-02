@@ -79,7 +79,8 @@ tr,
 
 .sticky {
     position: -webkit-sticky;
-    /* Safari */
+    padding-top: 12px;
+    padding-bottom: 12px;
     position: sticky;
     top: 0px;
 }
