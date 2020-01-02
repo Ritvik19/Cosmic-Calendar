@@ -14,8 +14,13 @@ nav {
     background-size: cover;
 }
 
-body {
+body,
+#mobile-nav {
     background-color: var(--clr-violet);
+}
+
+#mobile-nav a {
+    color: var(--clr-orange) !important;
 }
 
 header {
